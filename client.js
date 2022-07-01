@@ -4,7 +4,7 @@ const axios = require("axios");
 const getHome = async () => {
     try {
         const response = await axios.get("http://localhost:4000/")
-        console.log(`Connection OK -- Welcome Home page`);
+        console.log(`Connection OK -- Welcome Home page....`);
     } catch (error) {
         console.log(error.message);
     }
